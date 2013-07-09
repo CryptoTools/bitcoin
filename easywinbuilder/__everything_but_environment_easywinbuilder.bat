@@ -13,9 +13,9 @@
 @if errorlevel 1 goto error
 @call 4b_build_qt.bat
 @if errorlevel 1 goto error
-@call 5a_run_hash_daemon.bat
+@rem call 5a_run_hash_daemon.bat
 @if errorlevel 1 goto error
-@call 5b_run_hash_qt.bat
+@rem call 5b_run_hash_qt.bat
 @if errorlevel 1 goto error
 @call 6_gather_dlls.bat
 @if errorlevel 1 goto error

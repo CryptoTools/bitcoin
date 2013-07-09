@@ -10,11 +10,6 @@ In this repository there are no changes to the Bitcoin code itself though the pr
 
 To change dependency versions edit set_vars.bat
 
-File Hashes
------------
-The process will calculate a hash of the disassemblies of the final executables. The idea is to validate binaries by several people.
-I am not quite sure if this will reliably result in the same hash for the same build. Please let me know if you get different values or know how to improve this feature.
-
 ToDo
 -----
 * Compare disassembly hashes
