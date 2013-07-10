@@ -1,6 +1,7 @@
 @call set_vars.bat
 @bash patch_files.sh
 
+@rem todo: rewrite this with ^ line wrapping
 @set PARAMS=BOOST_SUFFIX=%BOOSTSUFFIX%
 @set PARAMS=%PARAMS% INCLUDEPATHS="
 @set PARAMS=%PARAMS%-I'%CD%'
@@ -17,6 +18,8 @@
 @set PARAMS=%PARAMS% -L'%CD%/../%EWBLIBS%/%MINIUPNPC%'
 @set PARAMS=%PARAMS%"
 
+@echo PARAMS: %PARAMS%
+
 @set PARAMS=%PARAMS% USE_UPNP=1
 @rem remove "rem " from the next line to deactivate upnp
 @rem set params=%params% USE_UPNP=-
@@ -30,6 +33,6 @@
 @echo !!!!!!! Bitcoin daemon DONE: Find %COINNAME%d.exe in ./src :)
 :continue
 @cd ..\easywinbuilder
-@if not "%runall%"=="1" pause
+@if not "%RUNALL%"=="1" pause
 
 :end
