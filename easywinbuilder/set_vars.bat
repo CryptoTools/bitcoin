@@ -15,6 +15,6 @@
 @set QTDOWNLOADPATH=http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-win-opensource-4.8.5-mingw.exe
 @rem Qt5 will need changes in gather_dlls.bat
 
-@rem Deactivate system Perl.
-@set PERL=
+@set MSYS=C:\MinGW\msys\1.0\bin
+@set PERL=%MSYS%\perl.exe
 
