@@ -10,13 +10,6 @@ fi
 
 cd ../$EWBLIBS
 
-echo  openssl...
-cd $OPENSSL
-./config
-make
-cd ..
-echo
-
 echo db...
 cd $BERKELEYDB
 cd build_unix
@@ -33,3 +26,15 @@ sed -i.bak 's/\$(CC) -enable-stdcall-fixup/\$(CC) -Wl,-enable-stdcall-fixup/g' M
 sed -i.bak 's/all:	init upnpc-static upnpc-shared testminixml libminiupnpc.a miniupnpc.dll/all:	init upnpc-static/g' Makefile.mingw  # only need static, rest is not compiling
 #make -f Makefile.mingw  # later, needs windows shell
 cd ..
+
+echo  openssl...
+echo " next: cd $OPENSSL"
+cd $OPENSSL
+echo " next: ./config"
+./config
+echo " next: make"
+make
+cd ..
+echo
+
+cd ../easywinbuilder
