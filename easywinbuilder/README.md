@@ -12,10 +12,12 @@ To change dependency versions edit set_vars.bat
 
 ToDo
 -----
-* Compare disassembly hashes
+* Compare binary hashes
+    * Work around timestamping (force timestamp / disassembly? filtered disassembly?)
+    * Work around nondeterministic optimizations: -frandom-seed=1984 for all sources and dependencies
 * Automatic environment install (how to bootstrap?)
 * Port to Namecoin (this project was started for Namecoin originally)
 
 Credits
 -------
-Based on bulid instructions by nitrogenetics (https://bitcointalk.org/index.php?topic=149479.0), Matt Corallo and others
+Based on build instructions by nitrogenetics (https://bitcointalk.org/index.php?topic=149479.0), Matt Corallo and others
