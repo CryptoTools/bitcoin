@@ -17,7 +17,7 @@ I am not quite sure if this will reliably result in the same hash for the same b
 
 ToDo
 -----
-* Check namecoind.exe binary hashes (deterministic build)
+* Check daemon disassembly hashes (deterministic build)
 * Fix daemon deterministic build
 * Automatic environment install (how to bootstrap?)
 * Try to speed up building of OpenSSL and Berkeley DB by only building what is necessary
