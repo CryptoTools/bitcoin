@@ -38,5 +38,5 @@ ToDo
 
 Credits
 -------
-Based on build instructions by nitrogenetics (https://bitcointalk.org/index.php?topic=149479.0), Matt Corallo and others
+Based on build instructions by nitrogenetics (https://bitcointalk.org/index.php?topic=149479.0), Matt Corallo and others.
 Thanks to Viriatto and neoranga for feedback on problems with spaces in paths.
