@@ -6,10 +6,9 @@ Automatically download environment software, all dependencies and build Bitcoin/
 
 How to use
 -----------
-Make sure to only use directories without spaces.
+Make sure to only use directories without spaces. Do EXACTLY follow the script instructions or the build might fail with strange errors.
 
 To run simply double click __all_easywinbuilder.bat or one of the other control scripts (depending on your configuration). You can also manually start the batch files (in order) as needed.
-Building Bitcoin on Windows really is a pain. Hopefully this saves people some trouble.
 
 EasyWinBuilder can run on a mint windows system (e.g. a virtual machine) or a normal system. It might overwrite your MinGW or Qt installation, though. Please note the process takes about half an hour or more and will need about 3GB of hard drive space.
 
@@ -26,6 +25,9 @@ Problems
 --------
 Often the source of trouble is difficult to identify as there are so many follow up issues. You can run the scripts from within SciTE or increase your command window buffer size (open command line, right click on the top left icon, properties, layout, windowbuffersize --> 9999, then start the batch file from command line).
 
+If you install MinGW or Qt the wrong way you will have to start over (at least remove all previously compiled files).
+
+Forum thread with more info: https://bitcointalk.org/index.php?topic=252931
 
 ToDo
 -----
