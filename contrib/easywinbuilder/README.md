@@ -21,8 +21,7 @@ Note that the official Windows binaries are cross compiled on Linux.
 
 File Hashes
 -----------
-The process will calculate a hash of the disassemblies of the final executables. The idea is to validate binaries by several people.
-I am not quite sure if this will reliably result in the same hash for the same build. Please let me know if you get different values or know how to improve this feature.
+The script calculates a hash of the disassembly of the final Qt executable. The idea is to validate binaries by several people, a little similar to the real Bitcoin build process. Currently the disassembly hash is only working for bitcoin-qt.exe whereas namecoind.exe produces different disassembly hashes. If you find out why let me know, also if you know a better way of how to get rid of the binary timestamp.
 
 Problems
 --------
