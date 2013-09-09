@@ -16,6 +16,9 @@ In this repository there are no changes to the Bitcoin code itself though the pr
 
 To change dependency versions / paths edit set_vars.bat
 
+Note that the official Windows binaries are cross compiled on Linux.
+
+
 File Hashes
 -----------
 The process will calculate a hash of the disassemblies of the final executables. The idea is to validate binaries by several people.
