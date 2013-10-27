@@ -1,4 +1,4 @@
-EasyWinBuilder v0.3
+EasyWinBuilder v0.5
 ===============
 (c) 2013 phelix / blockchained.com - MIT license
 
